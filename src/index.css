@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased; /* Mejora la nitidez en WebKit (Chrome, Safari) */
+  -moz-osx-font-smoothing: grayscale; /* Mejora en macOS */
+  text-rendering: optimizeLegibility;
+  line-height: 1;
+}
+
+ul{
+  list-style: none;
+}
+
+
+p {
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: none;
+}
+
+
+/********************************************************/  /* SECTION */
+
+.section--dark{
+  background-color: #252525;
+}
+
+.section--clear{
+  background-color: #f3eded;
+}
+
+
+
+/********************************************************/
+
+.slider--title{
+  font-family: "termina", sans-serif;
+  font-weight: 600;
+  color: #252525;
+  font-size: 58px;
+  max-width: 65%;
+  margin: 0;
+  position: absolute;
+  left: 80px;
+  bottom: -32px;
+  z-index: 2;
+}
+
+.slider--title--white{  
+  font-family: "termina", sans-serif;
+  font-weight: 600;
+  color: white;
+  font-size: 58px;
+  max-width: 65%;
+  margin: 0;
+  position: absolute;
+  left: 80px;
+  bottom: -32px;
+  z-index: 2;
+}
+
+.slider--p{
+  width: 100%;
+  font-size: 20px;
+}
+
+.button_link {
+  font-size: 14px;
+  font-family: "termina", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  border-bottom: solid 3px #c2c1c1;
+  color: #252525;
+  transition: 0.2s;
+  text-decoration: none;
+}
+
+.button_link:hover {
+  color: #ec5d56;
+}
