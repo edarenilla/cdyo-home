@@ -1,0 +1,52 @@
+.unete--section{
+    background-color: #94dee5;
+    margin: 6rem 0 0 15%;
+    padding: 60px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 550px;
+    max-height: 550px;
+    z-index: 1;
+}
+
+.p-unete{
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0;
+    color: #252525;
+    width: 300px;
+}
+
+.unete--options{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;  
+}
+
+.btn--link--unete{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #252525;  
+    font-family: termina, sans-serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+.btn--link--unete:hover{
+    padding-left: 20px; 
+    
+}
+
+.btn--link--unete span{
+    transition: all .3s ease-in-out;
+    opacity: .5;
+}
+.btn--link--unete:hover span{
+    opacity: 1;
+}

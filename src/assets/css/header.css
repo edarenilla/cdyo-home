@@ -1,0 +1,59 @@
+.header {
+    width: 100%;
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15%;
+    font-family: "Poppins", serif;
+    overflow: hidden;
+
+}
+.nav--top-com{
+    display: flex;
+    justify-content: end;
+    gap: 2rem;
+    padding: 1rem 0;
+}
+
+.nav--icon--name {
+    all: unset;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    gap: 0.313rem;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    color: #c0c0c0;
+    font-weight: 400;
+    font-size: .85rem;
+    transition: all .3s ease-in-out;    
+    background: transparent;
+}
+
+.nav--icon--name:hover{
+    color: #fff;
+    background-color: transparent;
+}   
+.nav--main-com{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 120px;
+}
+.logo{
+    width: 150px;
+    height: auto;
+}
+.nav-main-menu{
+    color: white;
+    cursor: pointer;
+}
+.nav-main-menu:hover{
+    color: #ec5d56;
+}   
+
+.ul--menu{
+    display: flex;
+    gap: 2.5rem;
+}

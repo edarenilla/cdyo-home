@@ -1,0 +1,133 @@
+
+.slider-2{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 580px;
+}
+.slider2-wrapper {
+    display: flex;
+    align-items: end;
+    position: relative;
+    gap: 3rem;
+    padding-top: 60px;
+  }
+  
+  .controls-progress {
+    width: 35%;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    gap: 2rem;
+    align-items: center;
+    margin-bottom: 20px;
+
+  }
+
+  .controls-slider {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .slider2-container {
+    width: 65%;
+    height: 580px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+
+  }
+  
+  .slider2-track {
+    display: flex;
+    width: calc(460px * 3);
+    height: 580px;
+    gap: 6rem;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slider2-image {
+    width: 460px;
+    height: 580px;
+    object-fit: cover;
+  }
+  
+  .slider2-button {
+    background-color: #ffffff;
+    color: #252525;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 10;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .slider2-button:hover {
+    background-color: #94dee5;
+    color: #252525;
+  }
+  
+  .progress-bar {
+    height: 3px;
+    background-color: #999999;
+
+
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: #fff;
+    transition: width 0.5s ease-in-out;
+  }
+
+
+  .slider2-item {
+    position: relative;
+    width: 400px;
+    height: 580px;
+  }
+  
+  .slider2-text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    text-align: left;
+    width: 90%;
+  }
+
+  .slider2-text h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-family: "termina", sans-serif;
+  }
+  
+  .slider2-text p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .slider2-link {
+    display: inline-block;
+    color: #fff;
+    padding-bottom: 5px;
+    text-decoration: none;
+    border-bottom: solid 3px #94dee5;
+    font-family: "termina", sans-serif;
+    font-weight: 700;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+  
+  .slider2-link:hover {
+    color: #94dee5;
+  }
+  
