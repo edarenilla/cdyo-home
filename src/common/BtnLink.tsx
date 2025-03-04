@@ -1,4 +1,5 @@
 import { GoArrowRight } from "react-icons/go";
+import '../assets/css/unetesection.css'
 type props = {
     text: string
 }

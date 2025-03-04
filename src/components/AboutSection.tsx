@@ -12,7 +12,7 @@ const AboutSection = () => {
             <a href="" className="video--a"><FaPlay size={30} /> </a>
         </div>
         <div className='about--section__text'>
-            <h1 className="h1--big">Oración interrumpida <br /> <span className='text-outline yellow--stroke'>por Colombia</span></h1>
+            <h1 className="h1--big">Oración ininterrumpida <br /> <span className='text-outline yellow--stroke'>por Colombia</span></h1>
             <p className='p-about'>
             Colombia discierne y ora  es un movimiento internacional e interdenominacional de oración, misión y justicia; una reunión de oración ininterrumpida que ha estado activa durante cada minuto de este siglo hasta la fecha, en más de la mitad de departamentos de Colombia.
             </p>

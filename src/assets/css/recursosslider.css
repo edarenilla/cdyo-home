@@ -1,0 +1,103 @@
+.slider--recursos--section {
+    width: 85%;
+    height: 600px;
+    margin: 6rem 0 20rem 15%; 
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.slider--recursos-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+}
+
+.slider--recursos__botones{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.controls-progress__recursos {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+   
+}
+
+
+
+.progress-bar__recursos {
+    width: 100%;
+    height: 3px;
+    background-color: #999999;
+    overflow: hidden;
+}
+
+.progress__recursos {
+    height: 100%;
+    background-color: #fff;
+    transition: width 0.5s ease-in-out;
+}
+
+.controls-slider {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.slider--recursos-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.slider--recursos-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider--recursos-track {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+    gap: 2rem;
+    width: 85%;
+    gap: 8rem;
+}
+
+.slider--recursos-item {
+    min-width: 400px;
+    height: 580px;
+    position: relative;
+}
+
+.slider--recursos-image {
+    width: 540px;
+    height: 440px;
+    object-fit: cover;
+}
+
+.slider--recursos-text {
+    position: absolute;
+    bottom: 160px;
+    left: 20px;
+    color: white;
+    padding: 10px;
+}
+
+.slider--recursos-link {
+    display: block;
+    margin-top: 5px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}

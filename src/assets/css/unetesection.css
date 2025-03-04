@@ -37,6 +37,7 @@
     letter-spacing: 2px;
     transition: all .3s ease-in-out;
     cursor: pointer;
+    z-index: 1;
 }
 .btn--link--unete:hover{
     padding-left: 20px; 

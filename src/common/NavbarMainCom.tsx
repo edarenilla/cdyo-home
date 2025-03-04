@@ -6,8 +6,8 @@ const NavbarMainCom = () => {
     { id: 1, text: "Acerca de", link: "/acerca-de" },
     { id: 2, text: "Únete", link: "/unete" },
     { id: 3, text: "Cómo orar", link: "/como-orar" },
-    { id: 4, text: "Blog", link: "/blog" },
-    { id: 5, text: "Recursos", link: "/recursos" },
+    { id: 4, text: "Recursos", link: "/Recursos" },
+    { id: 5, text: "Blog", link: "/Blog" },
     { id: 6, text: "Dona", link: "/dona" },
   ];
 

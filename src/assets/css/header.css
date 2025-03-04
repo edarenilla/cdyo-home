@@ -48,6 +48,8 @@
 .nav-main-menu{
     color: white;
     cursor: pointer;
+    transition: all .3s ease-in-out;
+    font-weight: 600;
 }
 .nav-main-menu:hover{
     color: #ec5d56;
