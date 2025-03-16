@@ -13,15 +13,14 @@ import ComoorarPage from './pages/ComoorarPage'
 import BlogPage from './pages/BlogPage'
 import DonaPage from './pages/DonaPage'
 import RecursosPage from './pages/RecursosPage'
+import Footer from './common/Footer'
 
 
 function App() {
   return (
    
         <BrowserRouter>
-
                   <Header />
-
               <Routes>
                   <Route path="/" element={<Navigate to="/inicio" />} />
 
@@ -35,8 +34,8 @@ function App() {
                   <Route path='/blog' element ={<BlogPage />} />
                   <Route path='/recursos' element={<RecursosPage />} />
                   <Route path='/dona' element ={<DonaPage />} />
-
             </Routes>
+                  <Footer />
 
         </BrowserRouter>
 

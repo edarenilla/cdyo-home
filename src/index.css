@@ -24,9 +24,14 @@ ul{
 .h1--big{
   font-family: "termina", sans-serif;
   font-weight: 600;
-  color: white;
   font-size: 100px;
   margin: 0;
+}
+.color--white {
+  color: white;
+}
+.color--black{
+  color:#252525
 }
 
 .text-outline {            /* Fuente en negrita para un mejor contorno */
@@ -120,6 +125,17 @@ p {
   background-color: #f2d876;
   color: #252525;
  
+}
+
+.btn--primary--w{
+  background-color: white;
+  color: #252525;
+  padding: 20px 60px;
+  transition: all .3s ease-in-out;
+}
+.btn--primary--w:hover{
+  background-color: #252525;
+  color: white;
 }
 
 .btn--primary--y:hover{

@@ -1,0 +1,32 @@
+.newsletter--section{
+    background-color: #3c7a89;
+    width: 100%;
+    padding: 12rem 15% 6rem 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-direction: column;
+    color: #fff;  
+    margin-top: -6rem;  
+
+}
+
+.newsletter--section h3{
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 1.2;
+    letter-spacing: 2px;
+    font-family: termina, sans-serif;
+    width: 50%;
+}
+
+.newsletter--section span{
+    font-weight: 500;
+    font-size: 18px;
+    font-family: termina, sans-serif;
+    color: #cacaca;
+}

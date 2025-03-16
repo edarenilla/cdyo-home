@@ -48,23 +48,24 @@ export default function SliderUnete() {
 
   return (
     <section className="slider--recursos--section">
+        <h1 className="vertical-text">Recursos</h1>
         <div className="slider--recursos-wrapper">
-          
-          <div className="slider--recursos-container">
+          <div className="slider--recursos-container"> 
             <motion.div
               className="slider--recursos-track"
-              animate={{ x: `-${index * 20}%` }}
+              animate={{ x: `-${index * 21}%` }}
               transition={{ duration: 0.3 }}>
               {slides.map((slide, i) => (
                 <div key={i} className="slider--recursos-item">
                   <img src={slide.src} alt={`Slide ${i + 1}`} className="slider--recursos-image" />
                   <div className="slider--recursos-text">
                     <h2>{slide.text}</h2>
-                    <a href={slide.link} className="slider--recursos-link">Leer ahora</a>
+
                   </div>
                 </div>
               ))}
             </motion.div>
+            
           </div>
 
           {/* Botones de navegación */}
@@ -88,6 +89,8 @@ export default function SliderUnete() {
                     </div>  
           </div>
         </div>
+
+        <p className="vertical-text">Recursos</p>
     </section>
   );
 }

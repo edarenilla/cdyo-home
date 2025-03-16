@@ -1,0 +1,112 @@
+/* Estilos generales del slider */
+.body--comments{
+    background-color: #f3eded;
+}
+
+.comments--section__slider {
+    background: #252525;
+    color: white;
+    position: relative;
+    padding: 60px 0;
+    width: 85%;
+    margin-right: auto;
+    overflow: hidden;
+    min-height: 500px;
+}
+
+/* Contenedor de los comentarios en grid */
+.comments--section__slider-container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 3rem;
+    width: 80%;
+    margin: auto;
+}
+
+/* Columna izquierda con imagen y datos personales */
+.comments--section__slider-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    justify-content: flex-start;
+    width: 230px;
+    margin-left: auto;
+    
+}
+
+.comments--section__slider-left img {
+    opacity: 0.45;
+    width: 100%;
+    height: 200px;
+    max-width: 200px;
+}
+
+.comments--section__slider-left h2 {
+    font-family: "termina", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    width: 100%;
+    margin: -30px  0  10px 20px;
+}
+
+
+.comments--section__slider-left p {
+    font-family: "termina", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    width: 100%;
+    margin: 0  0  0 20px;
+    color: #cacaca;
+}
+
+/* Columna derecha con el comentario */
+.comments--section__slider-right {
+    align-self: flex-start;
+    text-align: left;
+    font-size: 30px;
+    line-height: 1.3;
+    border-left: 7px solid #f3eded;
+    font-weight: 300;
+    padding-left: 20px;
+    font-family: "termina", sans-serif;
+}
+
+.comments--section__slider-right p {
+    margin: 0;
+    padding-left: 4rem;
+    width: 100%;
+    font-size: 22px;
+    line-height: 1.4;
+}
+
+
+/* Controles del slider */
+.comments--section__slider-controls {
+    position: absolute;
+    bottom: 60px;
+    right: 40px;
+    display: flex;
+    gap: 10px;
+}
+
+.comments--section__slider-button {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.comments--section__slider-button:hover {
+    color: #ec5d56;
+    background-color: transparent;
+    transform: scale(1.2);
+}
+
+/* Animación de transición */
+.comments--section__slider-track {
+    display: flex;
+    transition: transform 1s ease-in-out;
+}
